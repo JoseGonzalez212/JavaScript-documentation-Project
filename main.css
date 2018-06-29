@@ -39,3 +39,29 @@ xmp {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+@media only screen and (max-width: 750px) {
+    #documentation {
+        display: block;
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-left: none;
+    }
+    #nav-menu {
+        display: block;      
+        margin-top: 0px;   
+        width: 100%;   
+        position: relative;   
+        overflow-y: auto;
+        height: 200px;
+        margin: 0px;
+    }
+    #nav-menu a, #nav-menu h1 {
+        height: auto;
+    }
+
+}
+
